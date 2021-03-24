@@ -18,18 +18,5 @@ public class App {
                 (Cat) applicationContext.getBean("cat");
         System.out.println(beanCat == beanCat2);
 
-        //почему нет context.close();
-        //где конфиг файл, разрешающий аннотации? <context:annotation-config/ > в наш конфигурационный файл
-        //чем отличается с помощью аннотаций и с помощью java конфигурирование
-        //pom xml не добавлена зависимость
-        //spring core spring beans в pom
-        //application.run в мейне
-        //POJO-класс
-        //public HelloWorld getHelloWorld() из кофиг???
-        //, proxyMode= ScopedProxyMode.TARGET_CLASS чего?
-        //_1_https://stackoverflow.com/questions/14731092/spring-request-scope-bean
-        //_2_https://stackoverflow.com/questions/54756089/java-lang-illegalstateexception-no-scope-registered-for-scope-name-request
-        //по scope не понятно
-
     }
 }
